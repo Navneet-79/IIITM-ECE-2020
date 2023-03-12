@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+    <link rel="stylesheet" href="chap3.css">
+</head>
+<body>
+    <div class="container">
+        <h2>INTRODUCTION TO QUANTUM THEORY OF SOLIDS</h2>
+        <h3>Important Formula</h3>
+        <div class="frm1">
+            <h4>Ψ(x) = u(x)e<sup>jkx</sup></h4>
+            <p>bloch function k = constant of motion</p>
+            <p> u(x) = period function with period (a+b)</p>
+        </div>
+        <div class="frm2">
+            <h5>==> According to Schrodinger's wave equation</h5>
+            <h4>Total solution = time independent solution * time dependent solution</h4>
+            <h4>Ψ(x,t) = u(x)Φ(t) = u(x)e<sup>jkx</sup>*e<sup>-j(E/ℏ)t</sup> </h4> 
+            <p>where<b> ℏ</b> = h/2π</p>
+        </div>
+        <div class="frm3">
+            <h4>ṕ(sinαa/aα)+cosαa = coska</h4>
+            <p>where ṕ =( mVoba/ℏ<sup>2</sup>)</p>
+            <p> α<sup>2</sup> = 2mE/ℏ<sup>2</sup></p>
+            <p>where <b>ℏ</b> = h/2π</p>
+        </div>
+        <div class="frm4">
+            <h4>J = qNVd(A/cm<sup>2</sup>)</h4>
+            <p> where; q=electron charge</p>
+            <p>N = charge density</p>
+            <p>Vd = drift velocity of the electron</p>
+
+            <form class="drift" id="ch1" action="/action.php" onsubmit= "return false">
+                <input type="number" placeholder="charge" id="q1">
+                <input type="number" placeholder="density" id="q2">
+                <input type="number" placeholder="drift velocity" id="q3">
+                <button id="c1">calculate</button>   
+            </form>
+            <span id="span1"></span>
+        </div>
+        <div class="frm5">
+            <h4>J = qΣVi</h4>
+            <p> where sigma is from i = 1 to N and q is the electron charge</p>
+        </div>
+        <div class="frm6">
+            <h5>Total force acting on electrons in crystal</h5>
+            <h4>Ftot = Fext + Fint = ma</h4>
+            <p>Fint = internal forces in a crystal due to +ve charged ions and negatively charged electrons</p>
+            <p>Fext = externally applied electric field</p>
+            <p>m = rest mass of electron </p>
+            <p>a = acceleration</p>
+        </div>
+        <div class="frm7">
+            <h4>Fext = m*a</h4>
+            <p>where m* is effective mass of electron</p>
+        </div>
+        <div class="frm8">
+            <h4>F = ma = -eE</h4>
+            <p>a = -eE/m</p>
+        </div>
+        <div class="frm9">
+            <h4>Electron in conduction band : E-Ec = C1(k)<sup>2</sup></h4>
+            <p>where C1 is +ve</p>
+            <p>k = constant of motion</p>
+        </div>
+        <div class="frm10">
+            <h4>Drift current density due to electrons in valence bond is: ΣVf = ΣVt - ΣVe</h4>
+            <p>where f = filled </p>
+            <p>t is total
+            <p>e is empty</p>
+        </div>
+        <div class="frm11">
+            <h4>One dimensional potential: k = nπ/a and √(2mE/ℏ<sup>2</sup>) = k</h4>
+            <p>where n is +ve integer</p>
+            <p>k = constant of motion</p>
+            <p>π/a is the axial distance between two quantam states</p>
+        </div>
+        <div class="frm12">
+            <h4>Volume of k point is V<sub>k</sub>= (π/a)<sup>3</sup></h4>
+            <p>where V<sub>k</sub> is volume of point k</p>
+            <p>π/a is the axial distance between two quantam states</p>
+        </div>
+        <div class="frm13">
+            <h4>g(E) = (4π(2m)<sup>3/2</sup>/ℏ<sup>3</sup>)√E</h4>
+            <p>where E =(k<sup>2</sup>ℏ<sup>2</sup>/2m)</p>
+            <p>where <b>ℏ</b> = h/2π</p>
+        </div>
+        <div class="frm14">
+            <h4>Wi = gi! / Ni! (gi-Ni)!</h4>
+            <p>where Wi is fermi dirac probabilty function</p>
+        </div>
+        <div class="frm15">
+            <h4>Energy of conduction band E-Ec = (k<sup>2</sup>ℏ<sup>2</sup>/2m<sub>n</sub>*)</h4>
+            <p>where E is total energy and <br> Ec is energy of conduction band</p>
+        </div>
+        <div class="frm16">
+            <h4>Energy of valence bond Ev-E = (k<sup>2</sup>ℏ<sup>2</sup>/2m<sub>p</sub>*)</h4>
+            <p>where Ev is energy of valence bond </p>
+            <p>E is total energy</p>
+        </div>
+        <div class="frm17">
+            <h4>Fermi dirac disstribution function 
+                <br> N(E)/g(E) = fF(E) = 1/1+exp(E-ET/kT)
+            </h4>
+            <p>N(E) = no of electrons per unit volume per unit energy</p>
+            <p>g(E) = no of quantam states per unit vol per unit energy</p>
+            <p>Ef is fermi energy</p>
+        </div>
+    </div>
+</body>
+<script src="chap3.js"></script>
+</html>

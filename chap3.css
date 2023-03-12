@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h2, h3{
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+    color: blue;
+}
+.container{
+    width: 100%;
+    font-size: 18px;
+}
+.container h4{ 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    color: rgb(113, 56, 56);
+}
+.container p{
+    margin: 10px;
+    padding-left: 300px;
+}
+.frm1, .frm2,.frm3, .frm4, .frm5,.frm6, .frm7, .frm8, .frm9, .frm10, .frm11{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.frm12, .frm13, .frm14, .frm15, .frm16, .frm17{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.drift{
+    display: contents;
+}
+h5{
+    color: rgb(243, 56, 5);
+}
+
+
+
+
+@media(max-width:991px){
+    .container p{
+        padding-left: 100px;
+    }
+    .container h4{ 
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        color: rgb(113, 56, 56);
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+}
